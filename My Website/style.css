@@ -1,0 +1,25 @@
+/* Style the container to hold both the left and right sections */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the left section (photo) */
+.left {
+    flex: 1; /* Occupy 50% of the container's width */
+    padding: 10px;
+}
+
+/* Style the right section (buttons) */
+.right {
+    flex: 1; /* Occupy 50% of the container's width */
+    text-align: center; /* Center-align the buttons */
+}
+
+/* Style the image (you can adjust width and height as needed) */
+.left img {
+    max-width: 100%;
+    height: auto;
+}
